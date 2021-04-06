@@ -2,6 +2,16 @@
   
     {
 
+      "title"    : "3D printing",
+      "url"      : "/posts/my-haribo/",
+      "category" : "",
+      "tags"     : "printing",
+      "date"     : "2021-04-06 00:00:00 -0400"
+
+    } ,
+  
+    {
+
       "title"    : "Academy Write-up",
       "url"      : "/htb/academy/",
       "category" : "",

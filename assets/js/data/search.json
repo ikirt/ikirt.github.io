@@ -1,6 +1,21 @@
 [
   
   {
+    "title": "3D printing",
+    "url": "/posts/my-haribo/",
+    "categories": "3D",
+    "tags": "printing",
+    "date": "2021-04-06 00:00:00 -0400",
+    
+
+
+
+
+
+    "snippet": "A friend of mine got me into 3D priting 4 years ago. I started off with a MonoPrice Select V2, it was fun learning how printers work and how to generate the gcode, I’ve also started learning how to do my own drawings. I read about some issues with the Melzi board, so I decided to upgrade the moth..."
+  },
+  
+  {
     "title": "Academy Write-up",
     "url": "/htb/academy/",
     "categories": "htb",

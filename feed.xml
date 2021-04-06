@@ -4,7 +4,7 @@
   <id>/</id>
   <title>Things that make you go Hmmm.</title>
   <subtitle>I learn by documenting, so you'll only find documents here.</subtitle>
-  <updated>2021-04-06T12:01:12-04:00</updated>
+  <updated>2021-04-06T13:24:12-04:00</updated>
   <author>
     <name>triki</name>
     <uri>/</uri>
@@ -17,6 +17,40 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>3D printing</title>
+    <link href="/posts/my-haribo/" rel="alternate" type="text/html" title="3D printing" />
+    <published>2021-04-06T00:00:00-04:00</published>
+  
+    <updated>2021-04-06T00:00:00-04:00</updated>
+  
+    <id>/posts/my-haribo/</id>
+    <content src="/posts/my-haribo/" />
+    <author>
+      <name>triki</name>
+    </author>
+
+  
+    
+    <category term="3D" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      A friend of mine got me into 3D priting 4 years ago. I started off with a MonoPrice Select V2, it was fun learning how printers work and how to generate the gcode, I’ve also started learning how to do my own drawings. I read about some issues with the Melzi board, so I decided to upgrade the motherboard to a MKS Gen v1.4, installed TMC2100 silent steppers for XYZ axis and DRV8825 for the extrud...
+    </summary>
+  
+
+  </entry>
 
   
   <entry>
@@ -172,48 +206,6 @@ PORT     STATE SERVICE       REASON          VERSION
 139/tcp  open  netbios-ssn   syn-ack ttl 127 Microsoft Windows netbios-ssn
 445/tcp  open  microsoft-ds? syn-ack ttl 127
 8080/tcp open  http          syn-ack ttl 127 Ap...
-    </summary>
-  
-
-  </entry>
-
-  
-  <entry>
-    <title>Admirer Write-up</title>
-    <link href="/htb/admirer/" rel="alternate" type="text/html" title="Admirer Write-up" />
-    <published>2020-07-19T00:00:00-04:00</published>
-  
-    <updated>2021-03-26T09:45:39-04:00</updated>
-  
-    <id>/htb/admirer/</id>
-    <content src="/htb/admirer/" />
-    <author>
-      <name>triki</name>
-    </author>
-
-  
-    
-    <category term="htb" />
-    
-  
-
-  
-    <summary>
-      
-
-
-
-
-
-      Admirer was just retired, here is my write-up on how I worked my way through this box.
-
-Enumerating the ports on the host, I see the following:
-
-PORT   STATE SERVICE REASON         VERSION
-21/tcp open  ftp     syn-ack ttl 63 vsftpd 3.0.3
-22/tcp open  ssh     syn-ack ttl 63 OpenSSH 7.4p1 Debian 10+deb9u7 (protocol 2.0)
-| ssh-hostkey: 
-|   2048 4a:71:e9:21:63:69:9d:cb:dd:84:02:1a:23:97:e1:b9 (RSA...
     </summary>
   
 
