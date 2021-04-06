@@ -2,4 +2,4 @@ User-agent: *
 
 Disallow: /norobots/
 
-Sitemap: https://ikirt.github.io/sitemap.xml
+Sitemap: /sitemap.xml

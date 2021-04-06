@@ -1,19 +1,19 @@
 
 
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <id>https://ikirt.github.io/</id>
-  <title>Things that make you go Hmmmm...</title>
+  <id>/</id>
+  <title>Things that make you go Hmmm.</title>
   <subtitle>A minimal, portfolio, sidebar, bootstrap Jekyll theme with responsive web design and focuses on text presentation.</subtitle>
-  <updated>2021-03-31T13:48:18-04:00</updated>
+  <updated>2021-04-06T11:15:52-04:00</updated>
   <author>
-    <name>your_full_name</name>
-    <uri>https://ikirt.github.io/</uri>
+    <name>triki</name>
+    <uri>/</uri>
   </author>
-  <link rel="self" type="application/atom+xml" href="https://ikirt.github.io/feed.xml"/>
+  <link rel="self" type="application/atom+xml" href="/feed.xml"/>
   <link rel="alternate" type="text/html" hreflang="en-US"
-    href="https://ikirt.github.io/"/>
+    href="/"/>
   <generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator>
-  <rights> © 2021 your_full_name </rights>
+  <rights> © 2021 triki </rights>
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
@@ -21,15 +21,15 @@
   
   <entry>
     <title>Academy Write-up</title>
-    <link href="https://ikirt.github.io/htb/academy/" rel="alternate" type="text/html" title="Academy Write-up" />
+    <link href="/htb/academy/" rel="alternate" type="text/html" title="Academy Write-up" />
     <published>2020-12-16T00:00:00-05:00</published>
   
     <updated>2021-03-26T09:45:39-04:00</updated>
   
-    <id>https://ikirt.github.io/htb/academy/</id>
-    <content src="https://ikirt.github.io/htb/academy/" />
+    <id>/htb/academy/</id>
+    <content src="/htb/academy/" />
     <author>
-      <name>your_full_name</name>
+      <name>triki</name>
     </author>
 
   
@@ -63,15 +63,15 @@ PORT      STATE SERVICE REASON         VERSION
   
   <entry>
     <title>Omni Write-up</title>
-    <link href="https://ikirt.github.io/htb/omni/" rel="alternate" type="text/html" title="Omni Write-up" />
+    <link href="/htb/omni/" rel="alternate" type="text/html" title="Omni Write-up" />
     <published>2020-09-20T00:00:00-04:00</published>
   
     <updated>2021-03-26T09:45:39-04:00</updated>
   
-    <id>https://ikirt.github.io/htb/omni/</id>
-    <content src="https://ikirt.github.io/htb/omni/" />
+    <id>/htb/omni/</id>
+    <content src="/htb/omni/" />
     <author>
-      <name>your_full_name</name>
+      <name>triki</name>
     </author>
 
   
@@ -101,15 +101,15 @@ Host i...
   
   <entry>
     <title>Doctor Write-up</title>
-    <link href="https://ikirt.github.io/htb/doctor/" rel="alternate" type="text/html" title="Doctor Write-up" />
+    <link href="/htb/doctor/" rel="alternate" type="text/html" title="Doctor Write-up" />
     <published>2020-09-10T00:00:00-04:00</published>
   
     <updated>2021-03-26T09:45:39-04:00</updated>
   
-    <id>https://ikirt.github.io/htb/doctor/</id>
-    <content src="https://ikirt.github.io/htb/doctor/" />
+    <id>/htb/doctor/</id>
+    <content src="/htb/doctor/" />
     <author>
-      <name>your_full_name</name>
+      <name>triki</name>
     </author>
 
   
@@ -139,15 +139,15 @@ adjust_time...
   
   <entry>
     <title>Buff Write-up</title>
-    <link href="https://ikirt.github.io/htb/buff/" rel="alternate" type="text/html" title="Buff Write-up" />
+    <link href="/htb/buff/" rel="alternate" type="text/html" title="Buff Write-up" />
     <published>2020-08-05T00:00:00-04:00</published>
   
     <updated>2021-03-26T09:45:39-04:00</updated>
   
-    <id>https://ikirt.github.io/htb/buff/</id>
-    <content src="https://ikirt.github.io/htb/buff/" />
+    <id>/htb/buff/</id>
+    <content src="/htb/buff/" />
     <author>
-      <name>your_full_name</name>
+      <name>triki</name>
     </author>
 
   
@@ -180,15 +180,15 @@ PORT     STATE SERVICE       REASON          VERSION
   
   <entry>
     <title>Admirer Write-up</title>
-    <link href="https://ikirt.github.io/htb/admirer/" rel="alternate" type="text/html" title="Admirer Write-up" />
+    <link href="/htb/admirer/" rel="alternate" type="text/html" title="Admirer Write-up" />
     <published>2020-07-19T00:00:00-04:00</published>
   
     <updated>2021-03-26T09:45:39-04:00</updated>
   
-    <id>https://ikirt.github.io/htb/admirer/</id>
-    <content src="https://ikirt.github.io/htb/admirer/" />
+    <id>/htb/admirer/</id>
+    <content src="/htb/admirer/" />
     <author>
-      <name>your_full_name</name>
+      <name>triki</name>
     </author>
 
   

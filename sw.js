@@ -1,6 +1,7 @@
 self.importScripts('/assets/js/data/cache-list.js');
 
-var cacheName = 'chirpy-20210331.1348';
+var cacheName = 'chirpy-20210406.1115';
+
 
 function isExcluded(url) {
   const regex = /(^http(s)?|^\/)/; /* the regex for CORS url or relative url */
@@ -13,6 +14,7 @@ function isExcluded(url) {
   return false;
 }
 
+
 self.addEventListener('install', (e) => {
   self.skipWaiting();
   e.waitUntil(
@@ -22,25 +24,24 @@ self.addEventListener('install', (e) => {
   );
 });
 
+
 self.addEventListener('fetch', (e) => {
   e.respondWith(
     caches.match(e.request).then((r) => {
-      /* console.log(`[sw] method: ${e.request.method}, fetching: ${e.request.url}`); */
+      /* console.log('[Service Worker] Fetching resource: ' + e.request.url); */
       return r || fetch(e.request).then((response) => {
         return caches.open(cacheName).then((cache) => {
           if (!isExcluded(e.request.url)) {
-            if (e.request.method === "GET") {
-              /* console.log('[sw] Caching new resource: ' + e.request.url); */
-              cache.put(e.request, response.clone());
-            }
+            /* console.log('[Service Worker] Caching new resource: ' + e.request.url); */
+            cache.put(e.request, response.clone());
           }
           return response;
         });
-
       });
     })
   );
 });
+
 
 self.addEventListener('activate', (e) => {
   e.waitUntil(

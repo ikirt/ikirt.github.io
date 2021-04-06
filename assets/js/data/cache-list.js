@@ -1,20 +1,17 @@
 const include = [
-  /* --- CSS --- */
 
+  /*--- CSS ---*/
   '/assets/css/style.css',
 
-  /* --- Javascripts --- */
+  /*--- Javascripts ---*/
   '/assets/js/dist/home.min.js',
   '/assets/js/dist/page.min.js',
   '/assets/js/dist/post.min.js',
   '/assets/js/dist/categories.min.js',
-  '/assets/js/data/search.json',
-  '/app.js',
-  '/sw.js',
 
-  /* --- HTML --- */
-  '/index.html',
-  '/404.html',
+  /*--- HTML ---*/
+
+  /* Tabs */
   
     '/categories/',
   
@@ -25,8 +22,7 @@ const include = [
     '/about/',
   
 
-
-  /* --- Icons --- */'/assets/img/favicons/favicon.ico',
+  /*--- Icons ---*/'/assets/img/favicons/favicon.ico',
   '/assets/img/favicons/apple-icon.png',
   '/assets/img/favicons/apple-icon-precomposed.png',
   '/assets/img/favicons/apple-icon-57x57.png',
@@ -44,7 +40,15 @@ const include = [
   '/assets/img/favicons/favicon-16x16.png',
   '/assets/img/favicons/ms-icon-144x144.png',
   '/assets/img/favicons/manifest.json',
-  '/assets/img/favicons/browserconfig.xml'
+  '/assets/img/favicons/browserconfig.xml',
+
+  /*--- Others ---*/
+
+  '/assets/js/data/search.json',
+  '/404.html',
+
+  '/app.js',
+  '/sw.js'
 ];
 
 const exclude = ['/assets/js/data/pageviews.json',
