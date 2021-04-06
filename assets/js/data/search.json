@@ -1,0 +1,214 @@
+[
+  
+  {
+    "title": "Academy Write-up",
+    "url": "/htb/academy/",
+    "categories": "htb",
+    "tags": "hacking",
+    "date": "2020-12-16 00:00:00 -0500",
+    
+
+
+
+
+
+    "snippet": "Academy is an Easy Linux Box, time to dig in.PORT      STATE SERVICE REASON         VERSION22/tcp    open  ssh     syn-ack ttl 63 OpenSSH 8.2p1 Ubuntu 4ubuntu0.1 (Ubuntu Linux; protocol 2.0)| ssh-hostkey: |   3072 c0:90:a3:d8:35:25:6f:fa:33:06:cf:80:13:a0:a5:53 (RSA)| ssh-rsa AAAAB3NzaC1yc2EAAAAD..."
+  },
+  
+  {
+    "title": "Omni Write-up",
+    "url": "/htb/omni/",
+    "categories": "htb",
+    "tags": "hacking",
+    "date": "2020-09-20 00:00:00 -0400",
+    
+
+
+
+
+
+    "snippet": "Here we have omni which is a Windows box. I’ll start off with the nmap scan results.# Nmap 7.80 scan initiated Sun Oct 11 23:58:22 2020 as: nmap -vv --reason -Pn -A --osscan-guess --version-all -p- -oN /opt/htb/boxes/omni/results/10.10.10.204/scans/_full_tcp_nmap.txt -oX /opt/htb/boxes/omni/resul..."
+  },
+  
+  {
+    "title": "Doctor Write-up",
+    "url": "/htb/doctor/",
+    "categories": "htb",
+    "tags": "hacking",
+    "date": "2020-09-10 00:00:00 -0400",
+    
+
+
+
+
+
+    "snippet": "Doctor is the next box, this is Linux box marked as easy.Starting off with nmap results I see the following:# Nmap 7.80 scan initiated Mon Oct 19 20:00:39 2020 as: nmap -vv --reason -Pn -A --osscan-guess --version-all -p- -oN /opt/htb/boxes/doctor/results/10.10.10.209/scans/_full_tcp_nmap.txt -oX..."
+  },
+  
+  {
+    "title": "Buff Write-up",
+    "url": "/htb/buff/",
+    "categories": "htb",
+    "tags": "hacking",
+    "date": "2020-08-05 00:00:00 -0400",
+    
+
+
+
+
+
+    "snippet": "Next up is Buff, rated as an easy Windows box.Starting off with enumeration, I see the following available:PORT     STATE SERVICE       REASON          VERSION135/tcp  open  msrpc         syn-ack ttl 127 Microsoft Windows RPC139/tcp  open  netbios-ssn   syn-ack ttl 127 Microsoft Windows netbios-s..."
+  },
+  
+  {
+    "title": "Admirer Write-up",
+    "url": "/htb/admirer/",
+    "categories": "htb",
+    "tags": "hacking",
+    "date": "2020-07-19 00:00:00 -0400",
+    
+
+
+
+
+
+    "snippet": "Admirer was just retired, here is my write-up on how I worked my way through this box.Enumerating the ports on the host, I see the following:PORT   STATE SERVICE REASON         VERSION21/tcp open  ftp     syn-ack ttl 63 vsftpd 3.0.322/tcp open  ssh     syn-ack ttl 63 OpenSSH 7.4p1 Debian 10+deb9u..."
+  },
+  
+  {
+    "title": "Tabby Write-up",
+    "url": "/htb/tabby/",
+    "categories": "htb",
+    "tags": "hacking",
+    "date": "2020-07-16 00:00:00 -0400",
+    
+
+
+
+
+
+    "snippet": "Tabby was just retired, here is my write-up on how I worked my way through this box.Enumerating the ports on the host, I see the following:PORT     STATE SERVICE REASON         VERSION22/tcp   open  ssh     syn-ack ttl 63 OpenSSH 8.2p1 Ubuntu 4 (Ubuntu Linux; protocol 2.0)80/tcp   open  http    s..."
+  },
+  
+  {
+    "title": "Blunder Write-up",
+    "url": "/htb/blunder/",
+    "categories": "htb",
+    "tags": "hacking",
+    "date": "2020-07-12 00:00:00 -0400",
+    
+
+
+
+
+
+    "snippet": "Blunder was just retired, here is my write-up on how I worked my way through this box.Basic enumeration came back with the following ports.tcp/80/nmap-http - Identified HTTP Server: Apache/2.4.41 (Ubuntu)Looks like the attack surface is going to be web based for this one. So I decide to kickoff a..."
+  },
+  
+  {
+    "title": "oh-my-zsh htb theme",
+    "url": "/htb/htb-oh-my-zsh-theme",
+    "categories": "htb",
+    "tags": "zsh,themes",
+    "date": "2020-06-16 00:00:00 -0400",
+    
+
+
+
+
+
+    "snippet": "HTB recently release it’s web VM PwnBox which is running ParrotOS.The shell of choice is bash with a slick PS1 layout. I like to use ZSH combined with oh-my-zsh for extra juice, and decided to take a stab at writing a theme for oh-my-zsh. Knowing nothing about how to do this, I grabbed an existin..."
+  },
+  
+  {
+    "title": "ESP32 BLE Room Presence with HomeAssistant",
+    "url": "/posts/esp32-presence-ha/",
+    "categories": "mc",
+    "tags": "microcontrollers,esp32,HA",
+    "date": "2020-04-19 00:00:00 -0400",
+    
+
+
+
+
+
+    "snippet": "I have been using HomeAssistant for a couple years now to automate some smalls things in my life. One of the automations was to turn off my PC monitors and office lights when I wasn’t in the room. I started off with a Hue motion sensor which worked well, until I don’t move for a duration of time ..."
+  },
+  
+  {
+    "title": "H1 Thermostat Write-up",
+    "url": "/posts/thermostat/",
+    "categories": "hackerone",
+    "tags": "hacking, android",
+    "date": "2020-04-08 00:00:00 -0400",
+    
+
+
+
+
+
+    "snippet": "Difficulty (easy)This challenge starts off with downloading an APK file.After downloading the file, I decided to extract it with apktool.An APK file is a glorified ZIP file, some can just be unzipped but others APKs have been obfuscated, so there is where apktool comes to the rescue.$ apktool d t..."
+  },
+  
+  {
+    "title": "PetShop Pro Write-up",
+    "url": "/posts/petshop-pro/",
+    "categories": "hackerone",
+    "tags": "hacking",
+    "date": "2020-04-08 00:00:00 -0400",
+    
+
+
+
+
+
+    "snippet": "Difficulty (easy)Let’s walkthrough PetShop Pro. We start off with a simple ecomm site with a simple cart setup. There are 3 flags for this CTF.Flag 1Shopping CartFirst thing i check is to see is there is anything on the checkout page. So I add an item and proceed to checkout.I want to see if ther..."
+  },
+  
+  {
+    "title": "Traceback Write-up",
+    "url": "/htb/traceback/",
+    "categories": "htb",
+    "tags": "hacking",
+    "date": "2020-03-18 00:00:00 -0400",
+    
+
+
+
+
+
+    "snippet": "Traceback was just retired, here is my write-up on how I worked my way through this box.Starting off with basic enumeration I found these ports open.PORT   STATE SERVICE VERSION22/tcp open  ssh     OpenSSH 7.6p1 Ubuntu 4ubuntu0.3 (Ubuntu Linux; protocol 2.0)| ssh-hostkey: |   2048 96:25:51:8e:6c:..."
+  },
+  
+  {
+    "title": "Traverxec Write-up",
+    "url": "/htb/traverxec",
+    "categories": "htb",
+    "tags": "hacking",
+    "date": "2019-11-10 00:00:00 -0500",
+    
+
+
+
+
+
+    "snippet": "Traverxec was just retired, here is my write-up on how I worked my way through this box.Basic enumeration came back with the following ports.PORT   STATE SERVICE VERSION22/tcp open  ssh     OpenSSH 7.9p1 Debian 10+deb10u1 (protocol 2.0)| ssh-hostkey: |   2048 aa:99:a8:16:68:cd:41:cc:f9:6c:84:01:c..."
+  },
+  
+  {
+    "title": "Postman Write-up",
+    "url": "/htb/postman",
+    "categories": "htb",
+    "tags": "hacking",
+    "date": "2019-10-20 00:00:00 -0400",
+    
+
+
+
+
+
+    "snippet": "Postman was just retired, here is my write-up on how I worked my way through this box.I like to use nmapAutomator for my initial enumeration, and the ports I see open are:PORT      STATE SERVICE VERSION22/tcp    open  ssh     OpenSSH 7.6p1 Ubuntu 4ubuntu0.3 (Ubuntu Linux; protocol 2.0)| ssh-hostk..."
+  }
+  
+]
+

@@ -1,0 +1,224 @@
+
+
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <id>https://ikirt.github.io/</id>
+  <title>Things that make you go Hmmmm...</title>
+  <subtitle>A minimal, portfolio, sidebar, bootstrap Jekyll theme with responsive web design and focuses on text presentation.</subtitle>
+  <updated>2021-03-31T13:48:18-04:00</updated>
+  <author>
+    <name>your_full_name</name>
+    <uri>https://ikirt.github.io/</uri>
+  </author>
+  <link rel="self" type="application/atom+xml" href="https://ikirt.github.io/feed.xml"/>
+  <link rel="alternate" type="text/html" hreflang="en-US"
+    href="https://ikirt.github.io/"/>
+  <generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator>
+  <rights> © 2021 your_full_name </rights>
+  <icon>/assets/img/favicons/favicon.ico</icon>
+  <logo>/assets/img/favicons/favicon-96x96.png</logo>
+
+
+  
+  <entry>
+    <title>Academy Write-up</title>
+    <link href="https://ikirt.github.io/htb/academy/" rel="alternate" type="text/html" title="Academy Write-up" />
+    <published>2020-12-16T00:00:00-05:00</published>
+  
+    <updated>2021-03-26T09:45:39-04:00</updated>
+  
+    <id>https://ikirt.github.io/htb/academy/</id>
+    <content src="https://ikirt.github.io/htb/academy/" />
+    <author>
+      <name>your_full_name</name>
+    </author>
+
+  
+    
+    <category term="htb" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      
+
+Academy is an Easy Linux Box, time to dig in.
+
+PORT      STATE SERVICE REASON         VERSION
+22/tcp    open  ssh     syn-ack ttl 63 OpenSSH 8.2p1 Ubuntu 4ubuntu0.1 (Ubuntu Linux; protocol 2.0)
+| ssh-hostkey: 
+|   3072 c0:90:a3:d8:35:25:6f:fa:33:06:cf:80:13:a0:a5:53 (RSA)
+| ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQC/0BA3dU0ygKCvP7G3GklCeOqxb17vxMCsugN05RA9Fhj7AzkPiMLrrKRY656gBuscH23utAWAhRXzV1Sy...
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
+    <title>Omni Write-up</title>
+    <link href="https://ikirt.github.io/htb/omni/" rel="alternate" type="text/html" title="Omni Write-up" />
+    <published>2020-09-20T00:00:00-04:00</published>
+  
+    <updated>2021-03-26T09:45:39-04:00</updated>
+  
+    <id>https://ikirt.github.io/htb/omni/</id>
+    <content src="https://ikirt.github.io/htb/omni/" />
+    <author>
+      <name>your_full_name</name>
+    </author>
+
+  
+    
+    <category term="htb" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      Here we have omni which is a Windows box. I’ll start off with the nmap scan results.
+
+# Nmap 7.80 scan initiated Sun Oct 11 23:58:22 2020 as: nmap -vv --reason -Pn -A --osscan-guess --version-all -p- -oN /opt/htb/boxes/omni/results/10.10.10.204/scans/_full_tcp_nmap.txt -oX /opt/htb/boxes/omni/results/10.10.10.204/scans/xml/_full_tcp_nmap.xml 10.10.10.204
+Nmap scan report for 10.10.10.204
+Host i...
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
+    <title>Doctor Write-up</title>
+    <link href="https://ikirt.github.io/htb/doctor/" rel="alternate" type="text/html" title="Doctor Write-up" />
+    <published>2020-09-10T00:00:00-04:00</published>
+  
+    <updated>2021-03-26T09:45:39-04:00</updated>
+  
+    <id>https://ikirt.github.io/htb/doctor/</id>
+    <content src="https://ikirt.github.io/htb/doctor/" />
+    <author>
+      <name>your_full_name</name>
+    </author>
+
+  
+    
+    <category term="htb" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      Doctor is the next box, this is Linux box marked as easy.
+
+Starting off with nmap results I see the following:
+# Nmap 7.80 scan initiated Mon Oct 19 20:00:39 2020 as: nmap -vv --reason -Pn -A --osscan-guess --version-all -p- -oN /opt/htb/boxes/doctor/results/10.10.10.209/scans/_full_tcp_nmap.txt -oX /opt/htb/boxes/doctor/results/10.10.10.209/scans/xml/_full_tcp_nmap.xml 10.10.10.209
+adjust_time...
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
+    <title>Buff Write-up</title>
+    <link href="https://ikirt.github.io/htb/buff/" rel="alternate" type="text/html" title="Buff Write-up" />
+    <published>2020-08-05T00:00:00-04:00</published>
+  
+    <updated>2021-03-26T09:45:39-04:00</updated>
+  
+    <id>https://ikirt.github.io/htb/buff/</id>
+    <content src="https://ikirt.github.io/htb/buff/" />
+    <author>
+      <name>your_full_name</name>
+    </author>
+
+  
+    
+    <category term="htb" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      Next up is Buff, rated as an easy Windows box.
+
+Starting off with enumeration, I see the following available:
+PORT     STATE SERVICE       REASON          VERSION
+135/tcp  open  msrpc         syn-ack ttl 127 Microsoft Windows RPC
+139/tcp  open  netbios-ssn   syn-ack ttl 127 Microsoft Windows netbios-ssn
+445/tcp  open  microsoft-ds? syn-ack ttl 127
+8080/tcp open  http          syn-ack ttl 127 Ap...
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
+    <title>Admirer Write-up</title>
+    <link href="https://ikirt.github.io/htb/admirer/" rel="alternate" type="text/html" title="Admirer Write-up" />
+    <published>2020-07-19T00:00:00-04:00</published>
+  
+    <updated>2021-03-26T09:45:39-04:00</updated>
+  
+    <id>https://ikirt.github.io/htb/admirer/</id>
+    <content src="https://ikirt.github.io/htb/admirer/" />
+    <author>
+      <name>your_full_name</name>
+    </author>
+
+  
+    
+    <category term="htb" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      Admirer was just retired, here is my write-up on how I worked my way through this box.
+
+Enumerating the ports on the host, I see the following:
+
+PORT   STATE SERVICE REASON         VERSION
+21/tcp open  ftp     syn-ack ttl 63 vsftpd 3.0.3
+22/tcp open  ssh     syn-ack ttl 63 OpenSSH 7.4p1 Debian 10+deb9u7 (protocol 2.0)
+| ssh-hostkey: 
+|   2048 4a:71:e9:21:63:69:9d:cb:dd:84:02:1a:23:97:e1:b9 (RSA...
+    </summary>
+  
+
+  </entry>
+
+</feed>
+
+

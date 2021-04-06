@@ -1,0 +1,143 @@
+[
+  
+    {
+
+      "title"    : "Academy Write-up",
+      "url"      : "/htb/academy/",
+      "category" : "",
+      "tags"     : "hacking",
+      "date"     : "2020-12-16 00:00:00 -0500"
+
+    } ,
+  
+    {
+
+      "title"    : "Omni Write-up",
+      "url"      : "/htb/omni/",
+      "category" : "",
+      "tags"     : "hacking",
+      "date"     : "2020-09-20 00:00:00 -0400"
+
+    } ,
+  
+    {
+
+      "title"    : "Doctor Write-up",
+      "url"      : "/htb/doctor/",
+      "category" : "",
+      "tags"     : "hacking",
+      "date"     : "2020-09-10 00:00:00 -0400"
+
+    } ,
+  
+    {
+
+      "title"    : "Buff Write-up",
+      "url"      : "/htb/buff/",
+      "category" : "",
+      "tags"     : "hacking",
+      "date"     : "2020-08-05 00:00:00 -0400"
+
+    } ,
+  
+    {
+
+      "title"    : "Admirer Write-up",
+      "url"      : "/htb/admirer/",
+      "category" : "",
+      "tags"     : "hacking",
+      "date"     : "2020-07-19 00:00:00 -0400"
+
+    } ,
+  
+    {
+
+      "title"    : "Tabby Write-up",
+      "url"      : "/htb/tabby/",
+      "category" : "",
+      "tags"     : "hacking",
+      "date"     : "2020-07-16 00:00:00 -0400"
+
+    } ,
+  
+    {
+
+      "title"    : "Blunder Write-up",
+      "url"      : "/htb/blunder/",
+      "category" : "",
+      "tags"     : "hacking",
+      "date"     : "2020-07-12 00:00:00 -0400"
+
+    } ,
+  
+    {
+
+      "title"    : "oh-my-zsh htb theme",
+      "url"      : "/htb/htb-oh-my-zsh-theme",
+      "category" : "",
+      "tags"     : "zsh,themes",
+      "date"     : "2020-06-16 00:00:00 -0400"
+
+    } ,
+  
+    {
+
+      "title"    : "ESP32 BLE Room Presence with HomeAssistant",
+      "url"      : "/posts/esp32-presence-ha/",
+      "category" : "",
+      "tags"     : "microcontrollers,esp32,HA",
+      "date"     : "2020-04-19 00:00:00 -0400"
+
+    } ,
+  
+    {
+
+      "title"    : "H1 Thermostat Write-up",
+      "url"      : "/posts/thermostat/",
+      "category" : "",
+      "tags"     : "hacking, android",
+      "date"     : "2020-04-08 00:00:00 -0400"
+
+    } ,
+  
+    {
+
+      "title"    : "PetShop Pro Write-up",
+      "url"      : "/posts/petshop-pro/",
+      "category" : "",
+      "tags"     : "hacking",
+      "date"     : "2020-04-08 00:00:00 -0400"
+
+    } ,
+  
+    {
+
+      "title"    : "Traceback Write-up",
+      "url"      : "/htb/traceback/",
+      "category" : "",
+      "tags"     : "hacking",
+      "date"     : "2020-03-18 00:00:00 -0400"
+
+    } ,
+  
+    {
+
+      "title"    : "Traverxec Write-up",
+      "url"      : "/htb/traverxec",
+      "category" : "",
+      "tags"     : "hacking",
+      "date"     : "2019-11-10 00:00:00 -0500"
+
+    } ,
+  
+    {
+
+      "title"    : "Postman Write-up",
+      "url"      : "/htb/postman",
+      "category" : "",
+      "tags"     : "hacking",
+      "date"     : "2019-10-20 00:00:00 -0400"
+
+    } 
+  
+]
