@@ -38,7 +38,7 @@
 <meta name="twitter:creator" content="@triki" />
 <meta name="google-site-verification" content="google_meta_tag_verification" />
 <script type="application/ld+json">
-{"author":{"@type":"Person","name":"triki"},"url":"/posts/my-haribo/","@type":"BlogPosting","description":"A friend of mine got me into 3D priting 4 years ago. I started off with a MonoPrice Select V2, it was fun learning how printers work and how to generate the gcode, I’ve also started learning how to do my own drawings. I read about some issues with the Melzi board, so I decided to upgrade the motherboard to a MKS Gen v1.4, installed TMC2100 silent steppers for XYZ axis and DRV8825 for the extruder. Next I noticed some issues with the monoprice design, it wasn’t very rigig. So looked around for ways to fix this and found the Haribo project(https://github.com/PrusaMK2Users/3030_Haribo_Edition). This upgrade was WELL worth it, the printer is now more rigid and with the new motherboard I have more features with the Marlin 2.0 firmware.","headline":"3D printing","dateModified":"2021-04-06T00:00:00-04:00","datePublished":"2021-04-06T00:00:00-04:00","mainEntityOfPage":{"@type":"WebPage","@id":"/posts/my-haribo/"},"@context":"https://schema.org"}</script>
+{"mainEntityOfPage":{"@type":"WebPage","@id":"/posts/my-haribo/"},"author":{"@type":"Person","name":"triki"},"url":"/posts/my-haribo/","@type":"BlogPosting","description":"A friend of mine got me into 3D priting 4 years ago. I started off with a MonoPrice Select V2, it was fun learning how printers work and how to generate the gcode, I’ve also started learning how to do my own drawings. I read about some issues with the Melzi board, so I decided to upgrade the motherboard to a MKS Gen v1.4, installed TMC2100 silent steppers for XYZ axis and DRV8825 for the extruder. Next I noticed some issues with the monoprice design, it wasn’t very rigig. So looked around for ways to fix this and found the Haribo project(https://github.com/PrusaMK2Users/3030_Haribo_Edition). This upgrade was WELL worth it, the printer is now more rigid and with the new motherboard I have more features with the Marlin 2.0 firmware.","headline":"3D printing","dateModified":"2021-04-06T00:00:00-04:00","datePublished":"2021-04-06T00:00:00-04:00","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -506,6 +506,20 @@
 
 
 
+  
+
+  
+
+  <!-- lazy-load images <https://github.com/ApoorvSaxena/lozad.js#usage> -->
+  
+  
+
+  
+
+  
+
+
+
 <!-- return -->
 <div class="row">
 
@@ -584,6 +598,12 @@
         
 
         <p>A friend of mine got me into 3D priting 4 years ago. I started off with a <strong>MonoPrice Select V2</strong>, it was fun learning how printers work and how to generate the gcode, I’ve also started learning how to do my own drawings. I read about some issues with the Melzi board, so I decided to upgrade the motherboard to a <strong>MKS Gen v1.4</strong>, installed TMC2100 silent steppers for XYZ axis and DRV8825 for the extruder. Next I noticed some issues with the  monoprice design, it wasn’t very rigig. So looked around for ways to fix this and found the Haribo project(https://github.com/PrusaMK2Users/3030_Haribo_Edition).  This upgrade was <strong>WELL</strong> worth it, the printer is now more rigid and with the new motherboard I have more features with the Marlin 2.0 firmware.</p>
+
+<p><img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="https://raw.githubusercontent.com/MarlinFirmware/Marlin/2.0.x/buildroot/share/pixmaps/logo/marlin-250.png" /><br />
+<img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="/images/3D/1.jpg" width="300" /><img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="/images/3D/2.jpg" width="300" /><img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="/images/3D/3.jpg" width="300" />
+<img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="/images/3D/4.jpg" width="300" /><img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="/images/3D/5.jpg" width="300" /><img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="/images/3D/6.jpg" width="300" />
+<img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="/images/3D/7.jpg" width="300" /><img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="/images/3D/8.jpg" width="300" /><img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="/images/3D/9.jpg" width="300" />
+<img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="/images/3D/10.jpg" width="300" /></p>
 
 
       </div>
@@ -1328,6 +1348,18 @@ Starting off with nmap results I see the following:
 
 </div> <!-- .row -->
 
+
+
+  <!--
+  image lazy load: https://github.com/ApoorvSaxena/lozad.js
+-->
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lozad/dist/lozad.min.js"></script>
+
+<script type="text/javascript">
+  const imgs = document.querySelectorAll('.post-content img');
+  const observer = lozad(imgs);
+  observer.observe();
+</script>
 
 
 
